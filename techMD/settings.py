@@ -25,7 +25,7 @@ SECRET_KEY = 'o_$qbb!##*t2cx1te5&pmo6lrzx-f637qk^0n-xr9fpq2c9oo4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'martancho.pythonanywhere.com']
 
 
 # Application definition
