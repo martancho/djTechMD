@@ -37,7 +37,7 @@
 		}
 	</style>
 </head>
-
+{% block content %}
 <body>
 	<h3 style="text-align: center">{{title}}</h3>
 	<form method="POST" action="#" {% if form.is_multipart %}enctype="multipart/form-data"{% endif %}>
@@ -45,7 +45,7 @@
 
 		<nav class="navbar navbar-default">
 			<div class="container">
-				<div class="row col-md-12" style="background-color: #4289c1">
+				<div class="row justify-content-md-center" style="background-color: #4289c1">
 					<div class="col col-lg-2">
 						<img src="../static/img/techMDlogo_m.png">
 					</div>
@@ -138,3 +138,4 @@
 		{% endif %}
 	</form>
 </body>
+{% endblock %}
