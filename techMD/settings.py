@@ -71,10 +71,12 @@ TEMPLATES = [
     },
 ]
 
-import json
-with open('google_oauth.key') as keyfile: oauthkey = json.load(keyfile)
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = oauthkey['key']
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = oauthkey['secret']
+#import json
+#with open('google_oauth.key') as keyfile: oauthkey = json.load(keyfile)
+#SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = oauthkey['key']
+#SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = oauthkey['secret']
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '603263606381-pc55sbq5qd0q3n50gtv4t9p480oof8a1.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'aHjd1xJoC7BmJmwbTv5QlHxT'
 
 AUTHENTICATION_BACKENDS = (
     'social_core.backends.open_id.OpenIdAuth',
