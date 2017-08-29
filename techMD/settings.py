@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'RFI',
     'social_django',
+    'rolepermissions',
 ]
+ROLEPERMISSIONS_MODULE = 'techMD.roles'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
