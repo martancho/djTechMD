@@ -38,7 +38,7 @@
 	</style>
 </head>
 {% block content %}
-<body>
+<body style="background-color:#fff;">
 	<h3 style="text-align: center">{{title}}</h3>
 	<form method="POST" action="#" {% if form.is_multipart %}enctype="multipart/form-data"{% endif %}>
 	{% csrf_token %}
